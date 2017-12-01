@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   color: #000000;
   font-size: 16px;
+  width: 100%;
 }
 
 nav {
@@ -29,17 +30,26 @@ nav {
   width: 50%;
 }
 
-.right {
+.right a {
   float: right;
   text-decoration: none;
 }
 
 
-.right:link {color: blue; } /* unvisited */
-.right:visited { color:purple; } /* visited */
-.right:hover { color:pink; } /* mouse over */
-.right:active { color:red; }
+.right a:link {
+  color: blue;
+}
 
+.right a:visited {
+  color:yellow;
+}
+.right a:hover {
+  color: pink;
+}
+
+.right a:active {
+  color:red;
+}
 
 ul {
   list-style-type: none;
@@ -62,17 +72,28 @@ article {
 
 .container h1 {
   font-size: 3em;
+  margin-bottom:1%;
+  font-weight: bold;
 }
 
 .container h3 {
   font-size: 1.25em;
+  margin-bottom: 3%;
 }
 
 .author {
-  font-size:1.5em;
+  font-size:1em;
+  margin-bottom:7%;
+  font-weight: bold;
 }
 
 .story-text p {
   line-height: 1.75em;
+  margin-bottom: 2%;
+}
 
+figure figcaption {
+  font-weight: lighter;
+  font-size: .75em;
+  margin-bottom: 3em;
 }
